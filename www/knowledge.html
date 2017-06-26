@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/college_plan_rubik.css">
+<title>技术学院</title>
+</head>
+
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$(".login_button span").click(function(){
+	    var	x = $(".login_button span").index(this); 
+		document.title = x;
+		$(".panel").hide();
+		$(".panel").eq(x).show();
+	})	
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_1").hover(function(){
+		/*换图*/
+		$(".rubik_1").attr("src","images/icon_10_0.png")	
+	},function(){
+		$(".rubik_1").attr("src","images/icon_10.png")	
+	})	
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_2").hover(function(){
+		/*换图*/
+		$(".rubik_2").attr("src","images/icon_11_0.png")	
+	},function(){
+		$(".rubik_2").attr("src","images/icon_11.png")	
+	})
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_3").hover(function(){
+		/*换图*/
+		$(".rubik_3").attr("src","images/icon_12_0.png")	
+	},function(){
+		$(".rubik_3").attr("src","images/icon_12.png")	
+	})
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_4").hover(function(){
+		/*换图*/
+		$(".rubik_4").attr("src","images/icon_13_0.png")	
+	},function(){
+		$(".rubik_4").attr("src","images/icon_13.png")	
+	})
+	/*卫仕女魔方告诉你*/
+	
+})
+/*登录、注册*/
+</script>
+
+<body>
+<div class="nav_box"><!--头-->
+	<div class="nav_1">
+    	<div class="nav_1_content"> 
+        	<p>卫仕用户累计： 节约电能  <span>804</span>度（kWh),节约电费  <span>499.6</span>元，减排CO₂ <span>0.8</span>吨</p>
+        	<a style="display:none" class="icon_1" href=""></a>
+            <a style="display:none" class="icon_2" href=""></a>
+            <a style="display:none" class="icon_3" href=""></a>
+        </div>
+        <div style="width:100%; height:1px; background-color:#e7e7e7;"><!--分隔线--></div>
+    </div>
+    <div class="nav_2">
+    	<div class="nav_2_content">
+        	<img src="images/logo.png" />
+            <a class="conten_1" href="index.html"> 首页<br />Home</a>
+            <a class="conten_1"  href="rubik.html"> 卫仕魔方<br />VIS Cube</a>
+            <a class="conten_1"  href="solution.html"> 解决方案<br />Solution</a>
+            <a class="conten_1"  href="knowledge.html"> 技术学院<br />Knowledge</a>
+            <a class="conten_1"  href="about_introduction.html">关于卫仕<br />About </a>
+            <div style=" display:none;" class="search_box">
+            	<input>
+            	<a href="" class="search_icon"></a>
+            </div>
+        </div>    
+    </div>
+</div>
+<!--头部完-->
+
+<div class="banner_box banner_box_1 banner_box_2"><!--海报--></div>
+<div class="title_box title_box_1 title_box_2"><!--标题-->
+	<div class="title">
+		<h1>关于技术学院</h1>
+    	<p>卫仕能源致力于服务社会，不仅简明的向用户讲明能源相关的基本知识，还向能源行业内提供专业又独到的观点，我们将提供能源化相关的最新资讯、用电常识、独有技术和视点。</p>
+    </div> 
+</div>
+
+<div class="college_1_box"> <!--用电学堂 -->
+	<div class="college1"> 
+        <img class="college1_photo_2"  src="images/college_1.png">
+        <img class="college1_photo_3"  src="images/college_2.png">
+    	<img class="college1_photo_1"  src="images/college_3.png">
+        <p>想知道为什么您的电器耗电比别人家的更多？想知道怎么样才是最安全有效的用电方式？赶快来卫仕用电学堂了解一下吧！</p>
+    </div>
+</div>
+
+<div class="college_2_box"> <!--卫仕技术-->
+	<div class="college2"> 
+        <img class="college2_photo_2"  src="images/college_4.png">
+        <img class="college2_photo_3"  src="images/college_5.png">
+    	<img class="college2_photo_1"  src="images/college_6.png">
+        <p>您想了解能源互联网的技术趋势吗？卫仕能源云技术平台将给您带来持续的震撼！</p>
+    </div>
+</div>
+
+<div class="college_3_box"> <!--卫仕观点-->
+	<div class="college3"> 
+        <img class="college3_photo_2"  src="images/college_7.png">
+        <img class="college3_photo_3"  src="images/college_8.png">
+    	<img class="college3_photo_1"  src="images/college_9.png">
+        <p>深度！犀利！前瞻！引领能源商业潮流！这些将是卫仕能源即将为您呈现的思想饕餮。卫仕观点，不一样的能源思考！</p>
+    </div>
+</div>
+
+<div class="college_4_box"> <!--用户支持-->
+	<div class="college4"> 
+        <img class="college4_photo_2"  src="images/college_10.png">
+        <img class="college4_photo_3"  src="images/college_11.png">
+    	<img class="college4_photo_1"  src="images/college_12.png">
+        <p>如何玩转卫仕魔方以及其他卫仕能源核心产品？我们将给您最细致的指导、最简明的阐述。</p>
+    </div>
+</div>
+
+<div class="footer_1"><!--尾-->
+	<div class="footer_content">
+    	<div class="kong_box"></div>
+    	<img src="images/logo_1.png">
+        <p>公司研发中心：武汉市 珞瑜路727号 光谷银座2408号 <br /> 公司运营中心：北京市 回龙观北农路2号 华北电力大学科技园 主楼D座15楼东区7号　</p>
+        <div class="dotted_1"></div>
+        <p> 版权所有2015 VIS Energy Corporation.保留一切权利  ｜  服务条款 ｜ 隐私条款  ｜ 京ICP证备14050733号京公安网备14050733号 </p>
+    </div>	
+</div>
+
+</body>
+
+
+</html>

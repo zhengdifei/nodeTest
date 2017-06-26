@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/college_plan_rubik.css">
+<title>卫仕魔方</title>
+</head>
+
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$(".login_button span").click(function(){
+	    var	x = $(".login_button span").index(this); 
+		document.title = x;
+		$(".panel").hide();
+		$(".panel").eq(x).show();
+	})	
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_1").hover(function(){
+		/*换图*/
+		$(".rubik_1").attr("src","images/icon_10_0.png")	
+	},function(){
+		$(".rubik_1").attr("src","images/icon_10.png")	
+	})	
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_2").hover(function(){
+		/*换图*/
+		$(".rubik_2").attr("src","images/icon_11_0.png")	
+	},function(){
+		$(".rubik_2").attr("src","images/icon_11.png")	
+	})
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_3").hover(function(){
+		/*换图*/
+		$(".rubik_3").attr("src","images/icon_12_0.png")	
+	},function(){
+		$(".rubik_3").attr("src","images/icon_12.png")	
+	})
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_4").hover(function(){
+		/*换图*/
+		$(".rubik_4").attr("src","images/icon_13_0.png")	
+	},function(){
+		$(".rubik_4").attr("src","images/icon_13.png")	
+	})
+	/*卫仕女魔方告诉你*/
+	
+})
+/*登录、注册*/
+</script>
+
+<body>
+<div class="nav_box"><!--头-->
+	<div class="nav_1">
+    	<div class="nav_1_content"> 
+        	<p>卫仕用户累计： 节约电能  <span>804</span>度（kWh),节约电费  <span>499.6</span>元，减排CO₂ <span>0.8</span>吨</p>
+        	<a style="display:none" class="icon_1" href=""></a>
+            <a style="display:none" class="icon_2" href=""></a>
+            <a style="display:none" class="icon_3" href=""></a>
+        </div>
+        <div style="width:100%; height:1px; background-color:#e7e7e7;"><!--分隔线--></div>
+    </div>
+    <div class="nav_2">
+    	<div class="nav_2_content">
+        	<img src="images/logo.png" />
+            <a class="conten_1" href="index.html"> 首页<br />Home</a>
+            <a class="conten_1"  href="rubik.html"> 卫仕魔方<br />VIS Cube</a>
+            <a class="conten_1"  href="solution.html"> 解决方案<br />Solution</a>
+            <a class="conten_1"  href="knowledge.html"> 技术学院<br />Knowledge</a>
+            <a class="conten_1"  href="about_introduction.html">关于卫仕<br />About </a>
+            <div style=" display:none;" class="search_box">
+            	<input>
+            	<a href="" class="search_icon"></a>
+                <h1 class="login_button"> <span class="login">登陆</span>｜<span class="register">注册</span> </h1> <!--登录按钮-->
+            </div>
+          <div class="panel login_panel"><!--登录界面--> 
+            	<h1>欢迎使用卫仕魔方！</h1> 
+                <input value="请填写用户账号" class="account"><!--账号-->
+                <input value="请填写用户密码" class="password"><!--密码-->
+                <form id="form1" name="form1" method="post" action="">
+                    <label>
+                       <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_0" /><span>下次自动登录</span>
+                    </label>
+                    <br />
+                </form>
+                <a href="">登录</a>
+                <p class="bott_button"> <span class="login">注册新账号</span>｜<span class="register">忘记密码？</span> </p> <!--底部按钮-->
+          </div>
+          <div class="panel registe_panel"><!--注册界面-->
+          	 <div class="registe_title">
+             	<div class="registe_icon"></div>	
+                <h2>欢迎注册账号！</h2> 
+             </div>
+             <div class="phone"> <p>手机号</p>  <input value="输入手机号"><!--手机账号--> </div>
+             <div class="validation"> <p>验证码</p>  <input value="输入手机号"><!--验证码--> <a>获取验证码</a> </div>
+             <div class="password_0"> <p>密&nbsp;&nbsp;&nbsp;码</p>  <input value="6~20个字符（区分大小写）"><!--密码--></div> 
+             <a class="sigh_up" href="">马上注册</a>
+          </div>
+        </div>    
+    </div>
+</div>
+<!--头部完-->
+
+<div class="banner_box"><!--海报--></div>
+<div class="title_box"><!--标题-->
+	<div class="title">
+		<h1>关于卫仕魔方</h1>
+    	<p>卫仕魔方能够汇总您的用电数据，告诉您在您家里或管理区域内（例如办公室、酒店、商场等区域）的热水器、空调、冰箱，甚至是微波炉、台灯等实时设备的安全情况和用电支出情况！</p>
+    </div> 
+</div>
+
+<div class="rubik_box">
+	<div class="rubik">
+    	<img class="rubik_1" src="images/icon_10.png" >
+        <img class="rubik_2" src="images/icon_11.png" >
+        <img class="rubik_3" src="images/icon_12.png" >
+        <img class="rubik_4" src="images/icon_13.png" >
+        <img class="rubik_text" src="images/plan_5.png">
+        <p>可视化智能呈现您的能源供应与消费的实时<br />状态！</p>        
+    </div>
+</div>
+<!--卫仕魔方-->
+
+<div class="they_say_box">
+	<div class="they_say">
+    	<div class="say_title"></div>
+        <div class="say_content">
+			<div class="say_left">
+            	<img src="images/rubik_2.png">
+                <div class="say_left_line"></div>
+                <img src="images/rubik_3.png">
+                <div class="say_left_line"></div>
+                <img src="images/rubik_4.png">
+                <div class="say_left_line"></div>
+                <img src="images/rubik_5.png">
+                <div class="say_left_line"></div>
+            </div>
+            <div class="say_rigth">
+            	<div class="say_right_1">
+                	<img src="images/rubik_7.jpg" />
+                    <p>当我过度用电时，卫仕魔方会及时提醒我，我不敢相信卫仕能让我这个月减少用电支出达11%，减排了42千克二氧化碳。</p>
+                </div>
+                <div class="say_right_1 say_right_2">
+                	<img src="images/rubik_8.jpg" />
+                    <p>卫仕能够注重我们的隐私，总是以安全可靠的方式默默的保障我们的用电安全，我信赖它！</p>
+                </div>
+                <div class="say_right_1 say_right_3">
+                	<img src="images/rubik_9.jpg" />
+                    <p>太实用了，很方便呀！我甚至都不在需要去使用那些电器的控制面板了，直接从卫仕魔方上就能一目了然。</p>
+                </div>
+                <div class="say_right_1 say_right_4">
+                	<img src="images/rubik_10.jpg" />
+                    <p>卫仕魔方安装设置很简单，用电提醒和一键优化功能特别好用，对我家的用电诊断也特别有意思，好玩！</p>
+                </div>
+            </div>
+       </div> 
+    </div>
+</div>
+<!--他们说-->
+
+<div class="footer_1"><!--尾-->
+	<div class="footer_content">
+    	<div class="kong_box"></div>
+    	<img src="images/logo_1.png">
+        <p>公司研发中心：武汉市 珞瑜路727号 光谷银座2408号 <br /> 公司运营中心：北京市 回龙观北农路2号 华北电力大学科技园 主楼D座15楼东区7号　</p>
+        <div class="dotted_1"></div>
+        <p> 版权所有2015 VIS Energy Corporation.保留一切权利  ｜  服务条款 ｜ 隐私条款  ｜ 京ICP证备14050733号京公安网备14050733号 </p>
+    </div>	
+</div>
+
+</body>
+
+
+</html>

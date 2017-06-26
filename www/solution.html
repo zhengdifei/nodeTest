@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/college_plan_rubik.css">
+<title>解决方案</title>
+</head>
+
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$(".login_button span").click(function(){
+	    var	x = $(".login_button span").index(this); 
+		document.title = x;
+		$(".panel").hide();
+		$(".panel").eq(x).show();
+	})	
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_1").hover(function(){
+		/*换图*/
+		$(".rubik_1").attr("src","images/icon_10_0.png")	
+	},function(){
+		$(".rubik_1").attr("src","images/icon_10.png")	
+	})	
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_2").hover(function(){
+		/*换图*/
+		$(".rubik_2").attr("src","images/icon_11_0.png")	
+	},function(){
+		$(".rubik_2").attr("src","images/icon_11.png")	
+	})
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_3").hover(function(){
+		/*换图*/
+		$(".rubik_3").attr("src","images/icon_12_0.png")	
+	},function(){
+		$(".rubik_3").attr("src","images/icon_12.png")	
+	})
+	
+		/*鼠标指向img,换图片，离开再换回*/
+	$(".rubik_4").hover(function(){
+		/*换图*/
+		$(".rubik_4").attr("src","images/icon_13_0.png")	
+	},function(){
+		$(".rubik_4").attr("src","images/icon_13.png")	
+	})
+	/*卫仕女魔方告诉你*/
+	
+})
+/*登录、注册*/
+</script>
+
+<body>
+<div class="nav_box"><!--头-->
+	<div class="nav_1">
+    	<div class="nav_1_content"> 
+        	<p>卫仕用户累计： 节约电能  <span>804</span>度（kWh),节约电费  <span>499.6</span>元，减排CO₂ <span>0.8</span>吨</p>
+        	<a style="display:none" class="icon_1" href=""></a>
+            <a style="display:none" class="icon_2" href=""></a>
+            <a style="display:none" class="icon_3" href=""></a>
+        </div>
+        <div style="width:100%; height:1px; background-color:#e7e7e7;"><!--分隔线--></div>
+    </div>
+    <div class="nav_2">
+    	<div class="nav_2_content">
+        	<img src="images/logo.png" />
+            <a class="conten_1" href="index.html"> 首页<br />Home</a>
+            <a class="conten_1"  href="rubik.html"> 卫仕魔方<br />VIS Cube</a>
+            <a class="conten_1"  href="solution.html"> 解决方案<br />Solution</a>
+            <a class="conten_1"  href="knowledge.html"> 技术学院<br />Knowledge</a>
+            <a class="conten_1"  href="about_introduction.html">关于卫仕<br />About </a>
+            <div style=" display:none;" class="search_box">
+            	<input>
+            	<a href="" class="search_icon"></a>
+            </div>
+        </div>    
+    </div>
+</div>
+<!--头部完-->
+
+<div class="banner_box banner_box_1"><!--海报--></div>
+<div class="title_box title_box_1"><!--标题-->
+	<div class="title">
+		<h1>关于解决方案</h1>
+    	<p>卫仕能源（VIS ENERGY）注定专注于能源T领域，既能为电力用户（居民、工商业等）提供的智慧化能源消费管理技术解决方案，又可以向电网企业提供基于大数据和云计算的输配电智能化管控的技术解决方案，拥有业内一流的安全性和有效性。</p>
+    </div> 
+</div>
+
+<div class="plan1_box"> <!--配网设备-->
+	<div class="plan1"> 
+        <a href="http://guankou.visenergy.cc/view/home/index.html" target="_blank"><img class="plan1_photo_2"  src="images/plan_6.png"></a>
+        <img class="plan1_photo_3"  src="images/plan_7.png">
+    	<img class="plan1_photo_1"  src="images/plan_8.png">
+        <p>采用最先进的大数据分析技术和物联网技术，结合电能表正反向有/无功误差在线测试、多回路切换、PT二次回路电压降在线测试等电力计量技术，构建针对电能计量装置的智能化在线监测及远程校验管理系统，取代过去采用人工手段进行周期检定的模式，创新配网设备的智能化、精细化和人性化管理方式，有效提升电网智能化水平。</p>
+    </div>
+</div>
+
+<div class="plan2_box"> <!--用电行为-->
+	<div class="plan2"> 
+        <img class="plan2_photo_2"  src="images/plan_9.png">
+        <img class="plan2_photo_3"  src="images/plan_10.png">
+    	<img class="plan2_photo_1"  src="images/plan_11.png">
+        <p>以积累的大量用户用电信息数据为基础，融合天气、经济、社会等多维度数据源，构建用户用电信息大数据云平台，采用国际先进的人工智能技术、行为分析技术和高频数据处理技术，对用户用电行为特征进行精准的定量分析，挖掘出用电行为折射出的地区（国家）经济发展趋势、居民购买力、市场消费潜力等价值信息，供相关产业主管部门、行业企业和机构实现价值增值服务。</p>
+    </div>
+</div>
+
+<div class="plan3_box"> <!--电力需求-->
+	<div class="plan3"> 
+        <img class="plan3_photo_2"  src="images/plan_12.png">
+        <img class="plan3_photo_3"  src="images/plan_13.png">
+    	<img class="plan3_photo_1"  src="images/plan_14.png">
+        <p>融合智能电网中的高级计量体系(AMI)与大数据云技术, 利用智能电能表实时采集、分析和挖掘用户用电状态，依据实时电价、天气气候等多维数据，将清洁能源开发、资源综合利用与节能减排、能源(电力)需求侧管理、能效经济、绿色配额交易融为一体，实现电力系统的多维度整合优化，为用户提供智能用电决策方案，提高用户节能节电意识，提升电能产消匹配度与整体效能，实现需求侧的智能响应与优化管理。</p>
+    </div>
+</div>
+
+<div class="plan4_box"><!--电力大数据-->
+	<div class="plan4"> 
+        <img class="plan4_photo_2"  src="images/plan_15.png">
+        <img class="plan4_photo_3"  src="images/plan_16.png">
+    	<img class="plan4_photo_1"  src="images/plan_17.png">
+        <p>针对电力业务数据专业化分析技术应用的发展趋势,专注开发应用于智能配网、分布式能源系统的基础软件，即主要用于解决智能电网和分布式能源环境下数据传输、数据访问、应用调度、系统构建和系统集成、流程管理等问题的电力大数据中间件，是支撑电力大数据应用开发、运行和集成的平台，位于能源应用与操作系统、数据库之间，帮助电力大数据用户开发和集成应用软件，实现应用之间的互操作。</p>
+    </div>
+</div>
+
+<div class="footer_1"><!--尾-->
+	<div class="footer_content">
+    	<div class="kong_box"></div>
+    	<img src="images/logo_1.png">
+        <p>公司研发中心：武汉市 珞瑜路727号 光谷银座2408号 <br /> 公司运营中心：北京市 回龙观北农路2号 华北电力大学科技园 主楼D座15楼东区7号　</p>
+        <div class="dotted_1"></div>
+        <p> 版权所有2015 VIS Energy Corporation.保留一切权利  ｜  服务条款 ｜ 隐私条款  ｜ 京ICP证备14050733号京公安网备14050733号 </p>
+    </div>	
+</div>
+
+</body>
+
+
+</html>

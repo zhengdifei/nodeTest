@@ -1,0 +1,11 @@
+{
+  "name": "socket.io_cluster",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "redis": "^2.5.3"
+  }
+}

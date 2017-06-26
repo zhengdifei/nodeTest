@@ -1,0 +1,174 @@
+p,body,ul{ margin:0; padding:0;} 
+p,li{ font-size:12px; color:#767778;  padding:0; font-family: "微软雅黑","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"宋体";}
+a,h1,h2{ text-decoration:none; color:#505050; font-weight:normal; font-family: "微软雅黑","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"宋体";}
+img,input{ border:none 0; background-color:transparent; }
+*{margin:0;padding:0;}
+ul,li,dl,dd{list-style:none;}
+/*清零*/
+
+.nav_box{ width:100%;}
+.nav_1{ width:100%; height:38px;}
+.nav_1_content{ overflow:hidden; width:1200px; height:36px; margin:0 auto;}
+.nav_1_content p{ float:left; width:430px; margin-left:650px; line-height:35px;}
+.nav_1_content p span{ color:#34bfff;}
+.icon_1,.icon_2,.icon_3{ float:left; width:21px; height:20px;  margin-left:10px; margin-top:8px;}
+.icon_1{ background-image:url(../images/icon_1.png); margin-left:26px; }
+.icon_2{ background-image:url(../images/icon_2.png);}
+.icon_3{ background-image:url(../images/icon_3.png);}
+
+.nav_2{ width:100%; height:89px; background-color:#FFF;}
+.nav_2_content{ overflow:hidden; width:1200px; height:89px; margin:0 auto;}
+.nav_2_content img{ float:left; margin-top:16px; margin-right:60px;}
+.nav_2_content .conten_1{ float:left; width:130px; height:89px; font-family: "微软雅黑","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"宋体"; font-size:14px; padding-left:25px; padding-top:26px; line-height:18px; background-image:url(../images/xian.png); background-repeat:repeat-y; }
+.conten_1:hover{ background-color:#EEEEEE; }
+.nav_2_content .search_box{ width:122px; height:22px; float:left; margin-top:26px; position:relative; margin-left:60px;}
+.search_box input{ display:block;  width:96px; height:24px; background-color:#FFF; border: 1px solid #969ca6;} 
+.search_box .search_icon{  width:26px; height:26px; background-image:url(../images/icon_4.jpg); position:absolute; top:0; right:0px;} 
+/*头部*/
+
+     /*卫仕魔方——开始*/
+body{ position:relative;}
+.login_button{ width:160px; color:#a7a9ae; font-size:15px; line-height:30px; }
+.login_button span{ cursor:pointer;}
+.login_button span:hover{ color:#34bfff;}
+.login_panel{ width:334px; height:345px; background-image:url(../images/login.png); display:none; }/*登录按钮*/
+.registe_panel{ width:354px; height:345px; background-image:url(../images/register.png); display:none;} /*注册按钮*/
+  /*卫仕魔方——结束*/
+
+.panel{ position:absolute; top:180px; right:30%; }
+.panel h1,.panel h2{ font-size:18px; color:#01a9b4; margin-top:30px; margin-left:46px; margin-bottom:30px;  letter-spacing:0.6px;}
+.account,.password{ width:226px; height:34px; border:#c7c7c7 solid 1px; margin-bottom:16px; margin-left:54px; color:#b6b6b6; font-size:15px; font-family: "微软雅黑","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"宋体"; text-indent:14px;}
+#form1{ margin-left:54px;}
+#form1 span{ font-size:13px;  font-family: "微软雅黑","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"宋体"; margin-left:6px; color:#333333;}
+.login_panel a{ display:block; width:226px; height:46px; border: solid #009aa4 1px; background-color:#01a9b4; margin-left:54px; margin-top:16px; color:#FFF; text-align:center; line-height:46px; letter-spacing:6px; margin-bottom:30px; }
+.bott_button{ display:block; width:200px; height:42px;  color:#333333; margin-left:50px;  line-height:40px; text-align:center; }
+.login{ margin-right:8px; cursor:pointer;}
+.register{ margin-left:8px; cursor:pointer;}
+/*登录*/
+
+.registe_title{ overflow:hidden;}
+.registe_icon{ float:left; width:28px; height:27px; background-image:url(../images/icon_registe.png); margin-top:24px;  margin-left:46px;}
+.panel h2{ float:left; margin-left:18px !important;}
+.phone,.validation,.password_0{ overflow:hidden; margin-bottom:18px;}
+.phone input,.validation input,.password_0 input{ border:#c7c7c7 solid 1px; width:124px; height:34px; font-size:15px; font-family: "微软雅黑","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"宋体"; text-indent:14px;  margin-left:16px; color:#b6b6b6;  }
+.phone p,.phone input{ float:left;}
+.phone p,.validation p,.password_0 p{ font-size:16px; color:#6d6d6d; line-height:36px; text-indent:38px;}/*左边的文字说明*/
+.phone input,.password_0 input{ width:208px !important; }
+.validation a{ width:76px; font-size:12px; color:#01a9b4; line-height:36px; text-align:center;  height:34px; background-color:#adfaff; border: solid #00beca 1px; margin-left:6px;}
+.validation p,.validation input,.validation a{ float:left; }
+.password_0 p,.password_0 input{ float:left;}
+.registe_panel .sigh_up{  display:block; width:210px; height:46px; border: solid #009aa4 1px; background-color:#01a9b4; margin-left:100px; margin-top:16px; color:#FFF; text-align:center; line-height:46px; }
+/*注册*/
+
+.banner_box{ width:100%; height:632px; background:url(../images/banner_2.jpg) center top no-repeat;}
+.title_box{ width:100%;  background-color:#53e0a8;}
+.title{ width:1200px; margin:0 auto; padding-top:42px; padding-bottom:36px;}
+.title h1{ width:226px; height:40px; border: solid #FFF 1px; text-align:center; line-height:40px; font-size:28px; font-weight:bold;  color:#FFF; letter-spacing:1px;}
+.title p{ font-size:15px; color:#FFF; line-height:22px; letter-spacing:0.5px; margin-top:8px;}
+/*标题*/
+
+
+     /*卫仕魔方——开始*/
+	 
+.they_say_box{ width:100%; background-color:#eab646; height:2134px; padding-top:100px; padding-bottom:178px;}
+.they_say{ width:1200px; margin:0 auto;}
+.say_title{ width:308px; height:60px; background-image:url(../images/rubik_1.png); margin:0 auto; margin-bottom:40px;}
+.say_content{ position:relative;}
+.say_left{ width:231px; margin-left:40px;}
+.say_left_line{ width:2px; height:452px; background-color:#FFF; margin-left:66px;}
+.say_rigth{ position:absolute; top:100px; left:180px; }
+.say_right_1{ width:899px; height:378px; background-image:url(../images/rubik_6.png); background-repeat:no-repeat; margin-bottom:138px; padding:4px; }
+.say_right_1 p{ width:750px; height:50px; padding:15px 70px; background-color:#5db934; color:#c6f29a; font-size:16px; line-height:26px;}
+/*看看他们怎么说*/
+
+.rubik_box{ width:100%; height:680px; background-color:#02864c;}
+.rubik{ width:1200px; height:680px; margin:0 auto; position:relative; background-image:url(../images/background_1.jpg);}
+.rubik_1{ position:absolute; top:127px; left:360px;}
+.rubik_2{ position:absolute; top:312px; left:452px;}
+.rubik_3{ position:absolute; top:482px; left:332px;}
+.rubik_4{ position:absolute; top:504px; left:176px;}
+.rubik_text{  position:absolute; top:260px; left:700px;}
+.rubik p{  position:absolute; top:340px; left:728px; font-size:16px; font-family: "微软雅黑","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"宋体"; color:#89ffcc; letter-spacing:1px; line-height:30px; }
+/*卫仕魔方告诉你*/
+
+     /*解决方案——结束*/
+ 
+
+
+.footer_1{ width:100%; background-color:#01b2de; }
+.footer_content{ width:1200px; height:780px;  margin:0 auto; background:url(../images/background_3.png) center  no-repeat;}
+.kong_box{ width:100px; height:226px;}
+.footer_content img{ margin:0 auto; display:block;  margin-bottom:210px;}
+.footer_content p{ color:#FFF; font-size:14px; text-align:center; letter-spacing:0.5px; height:38px;}
+.dotted_1{ width:844px; height:1px; background-image:url(../images/xuxian_1.png); margin:0 auto; margin-top:8px; margin-bottom:6px;  }
+/*尾部*/
+
+
+     /*解决方案——开始*/
+.banner_box_1{ background:url(../images/banner_3.jpg) center top no-repeat;}
+.title_box_1{ background-color:#7186fd;}
+
+.plan1_box{ width:100%; background-color:#00d884; }
+.plan1{ width:1200px;  height:860px; margin:0 auto; position:relative;}
+.plan1 p{ width:400px; font-size:16px; color:#007e4d; letter-spacing:0.6px; line-height:26px;  position:absolute; top:334px; left:720px;}
+.plan1_photo_1{ position:absolute; top:218px; left:694px;}
+.plan1_photo_2{ position:absolute; top:186px; left:58px;}
+.plan1_photo_3{ position:absolute; top:530px; left:720px;}
+
+.plan2_box{ width:100%; background-color:#eab646;}
+.plan2{ width:1200px;  height:860px; margin:0 auto; position:relative;}
+.plan2 p{ width:400px; font-size:16px; color:#a43c21; letter-spacing:0.6px; line-height:26px;  position:absolute; top:336px; left:110px;}
+.plan2_photo_1{ position:absolute; top:540px; left:86px;}
+.plan2_photo_2{ position:absolute; top:218px; left:84px;}
+.plan2_photo_3{ position:absolute; top:214px; left:612px;}
+
+.plan3_box{ width:100%; background-color:#02864c;}
+.plan3{ width:1200px;  height:860px; margin:0 auto; position:relative;}
+.plan3 p{ width:450px; font-size:16px; color:#72e4b2; letter-spacing:0.6px; line-height:26px;  position:absolute; top:332px; left:686px; }
+.plan3_photo_1{ position:absolute; top:536px; left:656px;}
+.plan3_photo_2{ position:absolute; top:218px; left:656px;}
+.plan3_photo_3{ position:absolute; top:202px; left:82px;}
+
+.plan4_box{ width:100%; background-color:#ffdf68;}
+.plan4{ width:1200px;  height:860px; margin:0 auto; position:relative;}
+.plan4 p{ width:410px; font-size:16px; color:#c39d1d; letter-spacing:0.6px; line-height:26px;  position:absolute; top:330px; left:96px; }
+.plan4_photo_1{ position:absolute; top:564px; left:96px;}
+.plan4_photo_2{ position:absolute; top:208px; left:70px;}
+.plan4_photo_3{ position:absolute; top:184px; left:640px;}
+     /*解决方案——结束*/
+
+
+
+
+     /*技术学院——开始*/
+.banner_box_2{ background:url(../images/banner_4.jpg) center top no-repeat;} 
+.title_box_2{ background-color:#e0a424;}
+
+.college_1_box{ width:100%; background-color:#00d884; }
+.college1{ width:1200px;  height:860px; margin:0 auto; position:relative;}
+.college1 p{ width:200px; font-size:16px; color:#007e4d; letter-spacing:0.6px; line-height:26px;  position:absolute; top:370px; left:790px;}
+.college1_photo_1{ position:absolute; top:280px; left:764px;}
+.college1_photo_2{ position:absolute; top:150px; left:110px;}
+.college1_photo_3{ position:absolute; top:495px; left:757px;}
+
+.college_2_box{ width:100%; background-color:#eab646; }
+.college2{ width:1200px;  height:860px; margin:0 auto; position:relative;}
+.college2 p{ width:200px; font-size:16px; color:#a43c21; letter-spacing:0.6px; line-height:26px;  position:absolute; top:370px; left:204px;}
+.college2_photo_1{ position:absolute; top:500px; left:166px;}
+.college2_photo_2{ position:absolute; top:200px; left:610px;}
+.college2_photo_3{ position:absolute; top:276px; left:177px;}
+
+.college_3_box{ width:100%; background-color:#02864c; }
+.college3{ width:1200px;  height:860px; margin:0 auto; position:relative;}
+.college3 p{ width:200px; font-size:16px; color:#72e4b2; letter-spacing:0.6px; line-height:26px;  position:absolute; top:336px; left:750px;}
+.college3_photo_1{ position:absolute; top:464px; left:714px;}
+.college3_photo_2{ position:absolute; top:174px; left:164px;}
+.college3_photo_3{ position:absolute; top:258px; left:728px;}
+
+.college_4_box{ width:100%; background-color:#ffdf68; }
+.college4{ width:1200px;  height:860px; margin:0 auto; position:relative;}
+.college4 p{ width:200px; font-size:16px; color:#c39d1d; letter-spacing:0.6px; line-height:26px;  position:absolute; top:384px; left:174px;}
+.college4_photo_1{ position:absolute; top:500px; left:150px;}
+.college4_photo_2{ position:absolute; top:194px; left:616px;}
+.college4_photo_3{ position:absolute; top:290px; left:152px;}
+     /*技术学院——结束*/
